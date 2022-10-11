@@ -1,0 +1,52 @@
+.login{
+    margin: 28px auto 0px auto;
+    height: 450px;
+  
+    text-align: left;
+    background: white;
+    padding-left: 4.2%;
+    color: black;
+   width: 400px;
+    box-shadow: 0px 4px 9px 2px #F7F7F7;
+    border-radius: 15px;
+}
+
+.login p{
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: system-ui;
+    font-weight: bold;
+    padding-bottom: 10px;    
+}
+.login input{
+    display: block;
+    width: 80%;
+    border-radius: 9px;
+    background: #f7f7f7;
+    border: 1px solid #d7d7d7;
+    padding: 14px 13px;
+    color: #686767;
+    margin-bottom: 30px;
+}
+.login button{
+    display: block;
+    color: white;
+    background-color:#FE5454 ;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    width: 80%;
+    border: 0;
+    margin-top: 12%;
+    text-align: center;
+    padding: 11px;
+    font-size: 24px;
+    font-family: system-ui;
+    font-weight: 900;
+}
+ .login label[for="email"],.login label[for="password"]{
+    display: inline-block;
+    margin-top: 8px;
+    font-family: sans-serif;
+    color: #343333;
+    margin-bottom: 8px;
+}

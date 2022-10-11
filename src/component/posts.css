@@ -1,0 +1,33 @@
+
+.container{
+    padding: 30px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    height: 160px;
+    width: 50px;
+    flex : 1 1 500px;
+    margin: 10px 20px;
+   border-radius: 2%;
+   background-color: #FFFF;
+}
+.card .card-post{
+    padding: 1em 1.5em; 
+}
+.card .card-post h2{
+    padding-bottom:0.5em;
+}
+h1{
+    padding: 10px 0px 0px 60px;
+}
